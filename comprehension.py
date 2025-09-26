@@ -20,7 +20,7 @@ print("Squared dict:", squared_dict)
 print("Filtered dict:", filtered_dict)
 
 # Set comprehensions
-unique_lengths = {len(word) for word in ['apple', 'pie', 'banana', 'cat']}
+unique_lengths = {len(word) for word in ['pokhara', 'kathmandu', 'bhaktapur', 'butwal']}
 unique_remainders = {x % 3 for x in range(20)}
 
 print("Unique lengths:", unique_lengths)
